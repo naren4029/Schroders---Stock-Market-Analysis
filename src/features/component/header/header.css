@@ -1,0 +1,18 @@
+.app-header {
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  color: #333;
+  box-shadow: 1px 1px 2px #666;
+  text-shadow: 1px 2px 2px #ccc;
+  background-color: var(--primary-bg-color);
+}
+
+.app-logo {
+  background: url("../../../assets/images/logo_homepage_schroders_white.svg")
+    no-repeat;
+  display: inline-block;
+  height: 50px;
+  width: 250px;
+  vertical-align: middle;
+  margin-left: 10%;
+}

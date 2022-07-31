@@ -1,0 +1,24 @@
+.alignButton {
+  margin: 0 10px 10px 10px !important;
+  float: right;
+}
+
+.filterContainer {
+  position: absolute;
+  font-size: 7px;
+  bottom: 0;
+  right: 6px;
+  display: inline-block;
+}
+.filterContent {
+  background: #ccc;
+  color: #002a5e;
+  padding: 1px;
+  border-radius: 1px;
+  margin: 0 2px;
+}
+@media (max-width: 610px) {
+  .filterContainer {
+    display: none;
+  }
+}

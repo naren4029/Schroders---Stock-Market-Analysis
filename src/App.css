@@ -1,0 +1,42 @@
+:root {
+  --primary-bg-color: #002a5e;
+  --copyright-container-bg-color: #15152b;
+  --white: #fff;
+}
+
+.app {
+  height: 100vh;
+}
+
+.white {
+  color: var(--white);
+}
+
+.page-container {
+  margin: 5px 15% 65px;
+}
+
+.MuiList-root > li.MuiMenuItem-root:hover,
+.MuiAutocomplete-listbox > li:hover,
+button:hover {
+  color: #fff;
+  background-color: #2d55b2 !important;
+  border-color: transparent;
+}
+
+.MuiList-root > li.MuiMenuItem-root[tabindex="0"],
+.MuiAutocomplete-listbox > li:active,
+.MuiAutocomplete-listbox > li[aria-selected="true"],
+button:active {
+  background-color: #002a5e !important;
+  color: #14e6f1 !important;
+  border-color: transparent;
+}
+
+.MuiAccordion-root:not(:last-child) {
+  border-bottom: 1px solid #0000001f !important;
+}
+
+.MuiLoadingButton-loading.MuiButton-outlined.MuiButton-outlinedPrimary.Mui-disabled {
+  border-color: #002a5e !important;
+}

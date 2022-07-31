@@ -1,0 +1,9 @@
+{
+  "api": {
+    "key": "cbfb55aad3ictm4bi2c0"
+  },
+  "url": {
+    "stockSymbols": "https://finnhub.io/api/v1/stock/symbol",
+    "stockPrice": "https://finnhub.io/api/v1/stock/candle"
+  }
+}

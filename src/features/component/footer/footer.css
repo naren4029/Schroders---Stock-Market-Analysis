@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
+
+.footer .footer-info {
+  background-color: var(--primary-bg-color);
+  min-height: 25px;
+}
+
+.footer .copyright-container {
+  font-size: 16px;
+  background: var(--copyright-container-bg-color);
+  display: block;
+  text-align: right;
+}
+
+.footer .copyright-container .copyright {
+  padding: 2px 10%;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer .copyright-container {
+    text-align: left;
+  }
+}
